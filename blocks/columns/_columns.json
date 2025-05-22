@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Columns",
+      "title": "カラム",
       "id": "columns",
       "plugins": {
         "xwalk": {

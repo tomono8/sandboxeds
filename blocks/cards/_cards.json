@@ -16,7 +16,7 @@
       }
     },
     {
-      "title": "Card",
+      "title": "カード",
       "id": "card",
       "plugins": {
         "xwalk": {

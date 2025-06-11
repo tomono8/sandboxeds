@@ -83,7 +83,7 @@
       "id": "blocks",
       "components": [
         {
-          "title": "Cards",
+          "title": "カード",
           "id": "cards",
           "plugins": {
             "xwalk": {
@@ -98,7 +98,7 @@
           }
         },
         {
-          "title": "Card",
+          "title": "カード",
           "id": "card",
           "plugins": {
             "xwalk": {
@@ -113,7 +113,7 @@
           }
         },
         {
-          "title": "Columns",
+          "title": "カラム",
           "id": "columns",
           "plugins": {
             "xwalk": {

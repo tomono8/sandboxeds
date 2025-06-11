@@ -255,9 +255,3 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-
-.default-content .button {
-  background-color: red;
-  color: white;
-  /* 必要に応じて他のスタイルも追加 */
-}

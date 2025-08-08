@@ -161,6 +161,14 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Light",
+            "value": "light"
+          },
+          {
+            "name": "Panel",
+            "value": "panel"
           }
         ]
       }

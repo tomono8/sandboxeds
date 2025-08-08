@@ -20,6 +20,16 @@
         "name": "keywords",
         "multi": true,
         "label": "Keywords"
+      },
+      {
+        "component": "aem-content",
+        "name": "nav",
+        "label": "Navigation Fragment"
+      },
+      {
+        "component": "aem-content",
+        "name": "footer",
+        "label": "Footer Fragment"
       }
     ]
   },

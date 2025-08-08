@@ -167,6 +167,16 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "name": "open",
+        "label": "Open Index"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -182,6 +192,16 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "text",
+        "name": "autoplay",
+        "label": "Autoplay"
       }
     ]
   },

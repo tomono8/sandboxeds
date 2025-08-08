@@ -90,7 +90,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Accordion"
+                  "name": "Accordion",
+                  "model": "accordion"
                 }
               }
             }
@@ -134,7 +135,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Carousel"
+                  "name": "Carousel",
+                  "model": "carousel"
                 }
               }
             }
@@ -163,7 +165,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Embed"
+                  "name": "Embed",
+                  "model": "embed"
                 }
               }
             }
@@ -177,7 +180,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Form"
+                  "name": "Form",
+                  "model": "form"
                 }
               }
             }
@@ -221,7 +225,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Modal"
+                  "name": "Modal",
+                  "model": "modal"
                 }
               }
             }
@@ -235,7 +240,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Quote"
+                  "name": "Quote",
+                  "model": "quote"
                 }
               }
             }
@@ -249,7 +255,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Search"
+                  "name": "Search",
+                  "model": "search"
                 }
               }
             }
@@ -263,7 +270,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Table"
+                  "name": "Table",
+                  "model": "table"
                 }
               }
             }
@@ -277,7 +285,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Tabs"
+                  "name": "Tabs",
+                  "model": "tabs"
                 }
               }
             }
@@ -291,7 +300,8 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Video"
+                  "name": "Video",
+                  "model": "video"
                 }
               }
             }

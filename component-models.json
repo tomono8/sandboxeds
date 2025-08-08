@@ -30,6 +30,21 @@
         "component": "aem-content",
         "name": "footer",
         "label": "Footer Fragment"
+      },
+      {
+        "component": "select",
+        "name": "template",
+        "label": "Template",
+        "options": [
+          {
+            "name": "Brand A",
+            "value": "brand-a"
+          },
+          {
+            "name": "Brand B",
+            "value": "brand-b"
+          }
+        ]
       }
     ]
   },

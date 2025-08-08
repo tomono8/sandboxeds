@@ -29,6 +29,14 @@
           "component": "text",
           "name": "author",
           "label": "Author"
+        },
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            { "name": "Center", "value": "center" }
+          ]
         }
       ]
     }

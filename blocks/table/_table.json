@@ -25,7 +25,9 @@
           "name": "style",
           "label": "Style",
           "options": [
-            { "name": "No Header", "value": "no-header" }
+            { "name": "No Header", "value": "no-header" },
+            { "name": "Striped", "value": "striped" },
+            { "name": "Bordered", "value": "bordered" }
           ]
         }
       ]

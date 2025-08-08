@@ -29,6 +29,14 @@
           "component": "text",
           "name": "placeholder",
           "label": "Placeholder"
+        },
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            { "name": "Minimal", "value": "minimal" }
+          ]
         }
       ]
     }

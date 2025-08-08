@@ -260,14 +260,14 @@
     "id": "form",
     "fields": [
       {
-        "component": "text",
-        "name": "action",
-        "label": "Action URL"
+        "component": "aem-content",
+        "name": "json",
+        "label": "Form JSON"
       },
       {
-        "component": "text",
-        "name": "method",
-        "label": "Method"
+        "component": "aem-content",
+        "name": "submit",
+        "label": "Submit Endpoint"
       }
     ]
   },
@@ -329,6 +329,17 @@
         "component": "text",
         "name": "author",
         "label": "Author"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Center",
+            "value": "center"
+          }
+        ]
       }
     ]
   },
@@ -344,6 +355,17 @@
         "component": "text",
         "name": "placeholder",
         "label": "Placeholder"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Minimal",
+            "value": "minimal"
+          }
+        ]
       }
     ]
   },
@@ -358,6 +380,14 @@
           {
             "name": "No Header",
             "value": "no-header"
+          },
+          {
+            "name": "Striped",
+            "value": "striped"
+          },
+          {
+            "name": "Bordered",
+            "value": "bordered"
           }
         ]
       }

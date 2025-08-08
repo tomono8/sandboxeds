@@ -21,14 +21,14 @@
       "id": "form",
       "fields": [
         {
-          "component": "text",
-          "name": "action",
-          "label": "Action URL"
+          "component": "aem-content",
+          "name": "json",
+          "label": "Form JSON"
         },
         {
-          "component": "text",
-          "name": "method",
-          "label": "Method"
+          "component": "aem-content",
+          "name": "submit",
+          "label": "Submit Endpoint"
         }
       ]
     }

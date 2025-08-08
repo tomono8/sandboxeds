@@ -169,6 +169,10 @@
           {
             "name": "Panel",
             "value": "panel"
+          },
+          {
+            "name": "Center",
+            "value": "center"
           }
         ]
       }

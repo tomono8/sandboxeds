@@ -255,6 +255,11 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/* center aligned text helper */
+main .section.center {
+  text-align: center;
+}
  
 /* --- Panel section (recommended composition helper) --- */
 

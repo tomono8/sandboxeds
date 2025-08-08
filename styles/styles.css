@@ -255,9 +255,11 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-
+ 
 /* --- Panel section (recommended composition helper) --- */
+
 /* Use via Section Metadata → Style: panel */
+
 /*
   Place the visual panel on the inner container to keep left/right page gutters.
   The outer section keeps vertical rhythm only.
@@ -265,20 +267,21 @@ main .section.highlight {
 main > .section.panel {
   padding: 40px 0; /* vertical spacing for the section */
 }
+
 main > .section.panel > div {
   border: 2px solid var(--link-color);
   border-radius: 12px;
   padding: 32px 24px;
   text-align: center;
 }
-
+ 
 /* Make CTA buttons inside panel larger automatically */
 main > .section.panel > div a.button {
   padding: 18px 28px;
   font-size: 20px;
   border-radius: 999px;
 }
-
+ 
 /* Optional icon spacing when an icon is placed inside the button */
 main > .section.panel > div a.button .icon {
   vertical-align: middle;

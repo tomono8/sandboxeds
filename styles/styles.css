@@ -255,3 +255,25 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/* --- Panel section (recommended composition helper) --- */
+/* Use via Section Metadata → Style: panel */
+main > .section.panel {
+  border: 2px solid var(--link-color);
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+/* Make CTA buttons inside panel larger automatically */
+main > .section.panel a.button {
+  padding: 18px 28px;
+  font-size: 20px;
+  border-radius: 999px;
+}
+
+/* Optional icon spacing when an icon is placed inside the button */
+main > .section.panel a.button .icon {
+  vertical-align: middle;
+  margin-right: 8px;
+}

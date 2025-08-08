@@ -21,6 +21,11 @@
       "id": "search",
       "fields": [
         {
+          "component": "aem-content",
+          "name": "source",
+          "label": "Source JSON"
+        },
+        {
           "component": "text",
           "name": "placeholder",
           "label": "Placeholder"

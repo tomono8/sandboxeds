@@ -21,6 +21,14 @@
       "id": "carousel",
       "fields": [
         {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            { "name": "Autoplay", "value": "autoplay" }
+          ]
+        },
+        {
           "component": "text",
           "name": "autoplay",
           "label": "Autoplay"

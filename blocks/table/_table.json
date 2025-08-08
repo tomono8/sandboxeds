@@ -21,9 +21,12 @@
       "id": "table",
       "fields": [
         {
-          "component": "text",
+          "component": "multiselect",
           "name": "style",
-          "label": "Style"
+          "label": "Style",
+          "options": [
+            { "name": "No Header", "value": "no-header" }
+          ]
         }
       ]
     }

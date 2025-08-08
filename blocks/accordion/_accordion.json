@@ -21,6 +21,14 @@
       "id": "accordion",
       "fields": [
         {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            { "name": "Open First", "value": "open-first" }
+          ]
+        },
+        {
           "component": "text",
           "name": "open",
           "label": "Open Index"

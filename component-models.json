@@ -170,6 +170,17 @@
     "id": "accordion",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Open First",
+            "value": "open-first"
+          }
+        ]
+      },
+      {
         "component": "text",
         "name": "open",
         "label": "Open Index"
@@ -198,6 +209,17 @@
   {
     "id": "carousel",
     "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Autoplay",
+            "value": "autoplay"
+          }
+        ]
+      },
       {
         "component": "text",
         "name": "autoplay",
@@ -314,6 +336,11 @@
     "id": "search",
     "fields": [
       {
+        "component": "aem-content",
+        "name": "source",
+        "label": "Source JSON"
+      },
+      {
         "component": "text",
         "name": "placeholder",
         "label": "Placeholder"
@@ -324,9 +351,15 @@
     "id": "table",
     "fields": [
       {
-        "component": "text",
+        "component": "multiselect",
         "name": "style",
-        "label": "Style"
+        "label": "Style",
+        "options": [
+          {
+            "name": "No Header",
+            "value": "no-header"
+          }
+        ]
       }
     ]
   },
@@ -355,9 +388,15 @@
         "label": "Source URL"
       },
       {
-        "component": "text",
-        "name": "autoplay",
-        "label": "Autoplay"
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Autoplay (Background)",
+            "value": "autoplay"
+          }
+        ]
       }
     ]
   }

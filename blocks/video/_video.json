@@ -32,9 +32,12 @@
           "label": "Source URL"
         },
         {
-          "component": "text",
-          "name": "autoplay",
-          "label": "Autoplay"
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            { "name": "Autoplay (Background)", "value": "autoplay" }
+          ]
         }
       ]
     }

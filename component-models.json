@@ -205,6 +205,31 @@
     ]
   },
   {
+    "id": "embed",
+    "fields": [
+      {
+        "component": "text",
+        "name": "url",
+        "label": "URL"
+      }
+    ]
+  },
+  {
+    "id": "form",
+    "fields": [
+      {
+        "component": "text",
+        "name": "action",
+        "label": "Action URL"
+      },
+      {
+        "component": "text",
+        "name": "method",
+        "label": "Method"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -237,6 +262,82 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "modal",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content"
+      }
+    ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Quote Text"
+      },
+      {
+        "component": "text",
+        "name": "author",
+        "label": "Author"
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "name": "placeholder",
+        "label": "Placeholder"
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "fields": [
+      {
+        "component": "text",
+        "name": "style",
+        "label": "Style"
+      }
+    ]
+  },
+  {
+    "id": "tabs",
+    "fields": [
+      {
+        "component": "text",
+        "name": "activeTab",
+        "label": "Active Tab"
+      }
+    ]
+  },
+  {
+    "id": "video",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "poster",
+        "label": "Poster",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "src",
+        "label": "Source URL"
+      },
+      {
+        "component": "text",
+        "name": "autoplay",
+        "label": "Autoplay"
       }
     ]
   }

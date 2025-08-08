@@ -1,1 +1,26 @@
 /* add global styles that can be loaded post LCP here */
+
+/* Brand B: デスクトップで2行ヘッダーにする */
+@media (width >= 900px) {
+  body.brand-b header nav {
+    display: grid; /* 既存のflex/grid設定を上書き */
+    grid-template:
+      "brand tools" var(--nav-height)
+      "sections sections" auto / 1fr auto;
+    gap: 0 32px;
+    align-items: center;
+    height: auto; /* 1行固定高を解除（2行目に合わせて伸ばす） */
+  }
+
+  body.brand-b header .nav-brand {
+    grid-area: brand;
+  }
+
+  body.brand-b header .nav-tools {
+    grid-area: tools;
+  }
+
+  body.brand-b header .nav-sections {
+    grid-area: sections;
+  }
+}

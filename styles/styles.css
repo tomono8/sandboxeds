@@ -308,3 +308,30 @@ main > .section.panel-white > div {
 main > .section.panel-borderless > div {
   border: none;
 }
+
+/* hero-fill: make hero block bleed to section edges and remove top/bottom gutter */
+main > .section.hero-fill {
+  padding: 0;
+}
+
+main > .section.hero-fill .hero-container .hero-wrapper,
+main > .section.hero-fill .hero {
+  padding: 0;
+}
+
+/* Generic section full-bleed (works for any block) */
+main > .section.fill {
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.fill > div {
+  max-width: none;
+  padding: 0;
+}
+
+/* Remove vertical padding from immediate child blocks */
+main > .section.padless > div > * {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

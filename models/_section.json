@@ -53,6 +53,18 @@
             {
               "name": "Panel Borderless",
               "value": "panel-borderless"
+            },
+            {
+              "name": "Hero Full Bleed",
+              "value": "hero-fill"
+            },
+            {
+              "name": "Fill",
+              "value": "fill"
+            },
+            {
+              "name": "Padless (Vertical)",
+              "value": "padless"
             }
           ]
         }

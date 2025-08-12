@@ -292,3 +292,19 @@ main > .section.panel > div a.button .icon {
   vertical-align: middle;
   margin-right: 8px;
 }
+
+/*
+ * panel variations
+ */
+
+/* panel variations */
+
+/* panel-white: inner background white (or inherit if body is white) */
+main > .section.panel-white > div {
+  background-color: #fff;
+}
+
+/* panel-borderless: hide border but keep padding/radius */
+main > .section.panel-borderless > div {
+  border: none;
+}

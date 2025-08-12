@@ -173,6 +173,14 @@
           {
             "name": "Center",
             "value": "center"
+          },
+          {
+            "name": "Panel White",
+            "value": "panel-white"
+          },
+          {
+            "name": "Panel Borderless",
+            "value": "panel-borderless"
           }
         ]
       }
